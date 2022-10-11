@@ -15,3 +15,28 @@
     contactButton.addEventListener("click", contactUs);
 
 </Script>
+
+
+***************************
+
+
+
+<button>Contact me</button>
+
+<Script>
+    function contactUs() {
+    let name = prompt("What is you name?");
+    let email = prompt ("What is your email address?");
+
+    let h1 = document.querySelector ("h1")
+    h1.innerHTML = "Thank you " + name + ", we'll be in touch!";
+
+
+
+    } 
+
+    let contactButton = document.querySelector("button");
+    
+    contactButton.addEventListener("click", contactUs);
+
+</Script>
